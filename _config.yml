@@ -1,3 +1,12 @@
 title: Sophie Zhang
 
 theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  
+relative_links:
+  enabled: true
+  collections: true
