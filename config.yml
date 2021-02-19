@@ -26,10 +26,10 @@ params:
     profileMode:
       enabled: true
       title: "Sophie Zhang" # optional default will be site title
-      subtitle: "Hi there, I'm Sophie! I'm a 16-year-old Canadian 🇨🇦 high school student who's passionate about computer science, community service, and bettering the world through technology."
+      subtitle: "Hi there, I'm Sophie! I'm a 16-year-old Canadian high school student who's passionate about computer science, community service, and bettering the world through technology."
       imageUrl: "profile-picture.jpg"
-      imageWidth: 120 # custom size
-      imageHeight: 120 # custom size
+      imageWidth: 240 # custom size
+      imageHeight: 240 # custom size
 
     socialIcons: # optional
       - { name: "YouTube", url: "https://www.youtube.com/channel/UCONPV4aXmyoUNh3xbxZIYvQ" }
@@ -73,7 +73,7 @@ languages:
                   weight: 5
                 - name: Blog
                   url: blog/
-                  weight: 10
+                  weight: 6
                 - name: Art
                   url: art/
                   weight: 10
