@@ -23,14 +23,13 @@ outputs:
         - JSON
 
 params:
-  profileMode:
+    profileMode:
       enabled: true
       title: "Sophie Zhang" # optional default will be site title
       subtitle: "Hi there, I'm Sophie! I'm a 16-year-old Canadian 🇨🇦 high school student who's passionate about computer science, community service, and bettering the world through technology."
       imageUrl: "<image link>"
       imageWidth: 120 # custom size
       imageHeight: 120 # custom size
-      ShowSocialButtons: true
 
     socialIcons: # optional
       - { name: "YouTube", url: "https://www.youtube.com/channel/UCONPV4aXmyoUNh3xbxZIYvQ" }
