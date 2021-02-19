@@ -35,7 +35,7 @@ params:
       - { name: "YouTube", url: "https://www.youtube.com/channel/UCONPV4aXmyoUNh3xbxZIYvQ" }
       - { name: "Github", url: "https://github.com/sophiezhng" }
       - { name: "Instagram", url: "https://instagram.com/sophi3.exe" }
-      - { name: "RsS", url: "index.xml"}
+      - { name: "LinkedIn", url: "https://www.linkedin.com/in/sophiewzhang/"}
 
     # label:
     #     text: "Home"
@@ -68,9 +68,9 @@ languages:
         weight: 1
         menu:
             main:
-                #- name: Projects
-                  #url: projects/
-                  #weight: 5
+                - name: Resume
+                  url: Sophie_Zhang_Resume.pdf
+                  weight: 5
                 - name: Blog
                   url: blog/
                   weight: 6
