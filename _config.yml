@@ -1,12 +1,109 @@
+baseURL: "https://sophiezhng.github.io/"
 title: Sophie Zhang
+paginate: 5
+theme: PaperMod
 
-theme: jekyll-theme-minimal
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
 
-plugins:
-  - jekyll-relative-links
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  
-relative_links:
-  enabled: true
-  collections: true
+# googleAnalytics: G-TKYDCPKZJD
+
+minify:
+    disableXML: true
+    # minifyOutput: true
+
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+  profileMode:
+      enabled: true
+      title: "Sophie Zhang" # optional default will be site title
+      subtitle: "Hi there, I'm Sophie! I'm a 16-year-old Canadian 🇨🇦 high school student who's passionate about computer science, community service, and bettering the world through technology."
+      imageUrl: "<image link>"
+      imageWidth: 120 # custom size
+      imageHeight: 120 # custom size
+      ShowSocialButtons: true
+      buttons:
+          - name: Blog
+          url: "/blog"
+          - name: Github
+          url: "https://github.com/sophiezhng"
+          
+    languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                - name: Projects
+                  url: projects/
+                  weight: 5
+                - name: Blog
+                  url: blog/
+                  weight: 10
+                - name: Art
+                  url: art/
+                  weight: 10
+
+    socialIcons: # optional
+      - { name: "YouTube", url: "https://www.youtube.com/channel/UCONPV4aXmyoUNh3xbxZIYvQ" }
+      - { name: "Github", url: "https://github.com/sophiezhng" }
+      - { name: "Instagram", url: "https://instagram.com/sophi3.exe" }
+      - { name: "RsS", url: "index.xml"}
+
+    # label:
+    #     text: "Home"
+    #     icon: icon.png
+    #     iconHeight: 35
+
+    # analytics:
+    #     google:
+    #         SiteVerificationTag: "XYZabc"
+
+    # assets:
+    #     favicon: "<link / abs url>"
+    #     favicon16x16: "<link / abs url>"
+    #     favicon32x32: "<link / abs url>"
+    #     apple_touch_icon: "<link / abs url>"
+    #     safari_pinned_tab: "<link / abs url>"
+
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         # noClasses: false
+#         style: monokai
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
