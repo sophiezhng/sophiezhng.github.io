@@ -27,7 +27,7 @@ params:
       enabled: true
       title: "Sophie Zhang" # optional default will be site title
       subtitle: "Hi there, I'm Sophie! I'm a 16-year-old Canadian 🇨🇦 high school student who's passionate about computer science, community service, and bettering the world through technology."
-      imageUrl: "static/profile-picture.jpg/"
+      imageUrl: "profile-picture.jpg"
       imageWidth: 120 # custom size
       imageHeight: 120 # custom size
 
