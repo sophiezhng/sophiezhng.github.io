@@ -68,15 +68,15 @@ languages:
         weight: 1
         menu:
             main:
-                - name: Projects
-                  url: projects/
-                  weight: 5
+                #- name: Projects
+                  #url: projects/
+                  #weight: 5
                 - name: Blog
                   url: blog/
                   weight: 6
-                - name: Art
-                  url: art/
-                  weight: 10
+                #- name: Art
+                  #url: art/
+                  #weight: 10
                   
 privacy:
     vimeo:
